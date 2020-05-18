@@ -17,7 +17,17 @@ const firstLi = ul.firstElementChild;
 console.log(firstLi);
 
 const section = document.querySelector('section');
+const button = document.querySelector('button');
 
 // section.style.backgroundColor = "blue";
 
-section.className = ''
+section.className = 'red-bg'
+
+button.addEventListener('click', () => {
+    if (section.className === 'red-bg visible') {
+        section.className = 'red-bg invisible'
+    } else {
+        section.className = 'red-bg visible'
+    }
+    
+})
