@@ -18,4 +18,6 @@ console.log(firstLi);
 
 const section = document.querySelector('section');
 
-section.style.backgroundColor = "blue";
+// section.style.backgroundColor = "blue";
+
+section.className = ''
