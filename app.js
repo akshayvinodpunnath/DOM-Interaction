@@ -9,3 +9,9 @@ h1.style.backgroundColor = 'yellow';
 for ( const listItem of listItemElements) {
     console.log(listItem)
 }
+
+const ul = document.body.firstElementChild.nextElementSibling;
+
+const firstLi = ul.firstElementChild;
+
+console.log(firstLi)
